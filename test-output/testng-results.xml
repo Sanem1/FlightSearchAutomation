@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-05T12:28:22 TRT" name="FlightSearchTestsSuite" finished-at="2025-01-05T12:42:49 TRT" duration-ms="866908">
+    <groups>
+    </groups>
+    <test started-at="2025-01-05T12:28:22 TRT" name="FlightSearchTest1" finished-at="2025-01-05T12:33:18 TRT" duration-ms="296632">
+      <class name="tests.FlightSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSearchTest@71238fc2]" started-at="2025-01-05T12:28:22 TRT" name="setUp" finished-at="2025-01-05T12:29:31 TRT" duration-ms="69410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Case1()[pri:0, instance:tests.FlightSearchTest@71238fc2]" started-at="2025-01-05T12:29:31 TRT" name="Case1" finished-at="2025-01-05T12:33:17 TRT" duration-ms="226031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSearchTest@71238fc2]" started-at="2025-01-05T12:33:17 TRT" name="tearDown" finished-at="2025-01-05T12:33:18 TRT" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightSearchTest -->
+    </test> <!-- FlightSearchTest1 -->
+    <test started-at="2025-01-05T12:33:18 TRT" name="FlightSearchTest2" finished-at="2025-01-05T12:38:03 TRT" duration-ms="284307">
+      <class name="tests.FlightSearchTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSearchTest2@4b8ee4de]" started-at="2025-01-05T12:33:18 TRT" name="setUp" finished-at="2025-01-05T12:33:49 TRT" duration-ms="30278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Case2()[pri:0, instance:tests.FlightSearchTest2@4b8ee4de]" started-at="2025-01-05T12:33:49 TRT" name="Case2" finished-at="2025-01-05T12:38:02 TRT" duration-ms="253496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSearchTest2@4b8ee4de]" started-at="2025-01-05T12:38:02 TRT" name="tearDown" finished-at="2025-01-05T12:38:03 TRT" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightSearchTest2 -->
+    </test> <!-- FlightSearchTest2 -->
+    <test started-at="2025-01-05T12:38:03 TRT" name="FlightSearchTest3" finished-at="2025-01-05T12:42:49 TRT" duration-ms="285892">
+      <class name="tests.FlightSearchTest3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightSearchTest3@4b0d79fc]" started-at="2025-01-05T12:38:03 TRT" name="setUp" finished-at="2025-01-05T12:38:35 TRT" duration-ms="31765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Case3()[pri:0, instance:tests.FlightSearchTest3@4b0d79fc]" started-at="2025-01-05T12:38:35 TRT" name="Case3" finished-at="2025-01-05T12:42:48 TRT" duration-ms="253574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightSearchTest3@4b0d79fc]" started-at="2025-01-05T12:42:48 TRT" name="tearDown" finished-at="2025-01-05T12:42:49 TRT" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightSearchTest3 -->
+    </test> <!-- FlightSearchTest3 -->
+  </suite> <!-- FlightSearchTestsSuite -->
+</testng-results>
