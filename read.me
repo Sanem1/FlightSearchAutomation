@@ -1,0 +1,35 @@
+# Proje Adı
+Test Otomasyon ENUYGUN case çalışması
+
+Bu proje, Selenium WebDriver ve TestNG kullanarak yapılan  ENUYGUN tarafından iletilen caselerin test otomasyonu işlemlerini içermektedir.
+
+##Tests
+-Case1: FlightSearchTest.java //Kalkış saatini filtreleyip kontrol eder
+-Case2: FlightSearchTest2.java //TK Havayollarına göre filtreleyip  sonuçları fiyat artana göre sıralar
+-Case3: FlightSearchTest2.java //Impact etkisi yüksek olabilecek direk aktarmalı uçuşları arar sonuçları en erkenden başlayarak sıralar
+
+## Başlangıç
+
+Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
+
+### Gereksinimler
+
+- Java 8 veya üstü
+- Apache Maven
+- Eclipse (Tercihe bağlı)
+- TestNG ve Selenium bağımlılıkları
+
+### Proje Yapılandırması
+
+Projede kullanılan ana test çerçevesi **TestNG**'dir ve tüm testler, `testng.xml` adlı suite dosyası kullanılarak çalıştırılmaktadır. Bu dosya, testlerin hangi sırayla çalışacağını ve hangi testlerin dahil edileceğini belirler. pom.xml dosyasına 7.9.0 versiyonlu testng bağımlılığı eklenmiştir.
+
+### TestNG Suitini Çalıştırma
+
+#### Adım 1: ENUYGUN adlı Proje açılır testng.xml suiti çalıştırılır. Rapor paralel çalıştırma özelliği kapalıdır. Caseler sırayla çalışmaktadır. 
+
+###Test Sonuçları
+
+Testler `TestNG` framework'ü kullanılarak yazılmıştır ve ExtentReports ile raporlanmaktadır. Raporlar, ENUYGUN projesi içinde `custom-reports/ExtentReport.html` yolunda bulunabilir.
+
+## Yazar
+Sanem Tel Uludag
